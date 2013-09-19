@@ -13,7 +13,7 @@ Template.map.rendered = function () {
 initializeHome = function() {
   try { 
     google.maps.visualRefresh = true;
-    var mapOptions = {
+  var mapOptions = {
     center: new google.maps.LatLng(53.567, 9.944),
     zoom: 6,
     mapTypeId: google.maps.MapTypeId.ROADMAP
